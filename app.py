@@ -5,6 +5,7 @@ from flask_sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'postgres://hxbltojwmjnbff:1f93289a19911ffc3152420fef4e14b16421f786811ad48d3aedca88958256c3@ec2-50-16-231-2.compute-1.amazonaws.com:5432/d6tghj3nmll0iu'
+app.secret_key = 'my unobvious secret key'
 db = SQLAlchemy(app)
 # sess = Session()
 
