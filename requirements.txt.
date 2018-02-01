@@ -91,3 +91,4 @@ wcwidth==0.1.7
 Werkzeug==0.11.9
 xlrd==0.9.4
 xlwt==0.7.5
+psycopg.2==2.7.3.2
