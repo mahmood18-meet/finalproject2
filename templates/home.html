@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<title>TIMEZ</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/home.css')}}">
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="#home" class="w3-bar-item w3-button">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
+    <a href="#signup" class="w3-bar-item w3-button w3-hide-small"><i class="fa-bars"></i> SIGN UP</a>
+    <a href="#signin" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> SIGN IN</a>
+
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+      <i class="fa fa-search"></i>
+    </a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+    <a href="#signup" class="w3-bar-item w3-button" onclick="toggleFunction()">SIGN UP</a>
+    <a href="#signin" class="w3-bar-item w3-button" onclick="toggleFunction()">SIGN IN</a>
+    <a href="#" class="w3-bar-item w3-button">SEARCH</a>
+  </div>
+</div>
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity"> <span class="w3-hide-small">TIMEZ</span> </span>
+  </div>
+</div>
+
+<!-- Scroll -->
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+<font face="Almendra" size="4">
+  <h3 class="w3-center"> ABOUT </h3>
+<p>Time is such an important thing we always try to keep it on our sides, by using it correctly to push us step ahead in order to achive our dreams. Dreams that were made for a reason. <br>
+Wasting time on unnecessary stuff, couse a lack of improving and evolving, which is living the same day over and over again. once my grandfather told me: " you can't live the same year 75 times and call it a life ", i just can't agree more, my point is wasting time is basically waste of life. <br>
+One last important thing i want you to know is that, it is better late than never, if you have any kind of a problem with managing your time, this website is made for you ! </p>
+    </font>
+</div>
+
+<div class="w3-row">
+    <div class="w3-col m6 w3-center w3-padding-large">
+    <br><br><br><br><br>
+    <p><b><i class="fa fa-user w3-margin-right"></i>Mahmoud Zoabi</b></p><br>
+      <img src="../static/images/mahmood.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="350" height="250">
+      <br><br><br>
+    </div>
+<div class="w3-col m6 w3-hide-small w3-padding-large">
+<font face="Almendra" size="3" >
+  <p>Hi, I am 17 years old, palestinian who lives in Nazareth-Israel. People always tell me how organized person I am, it is true, I am orgnized in everything except in one thing which is time.<br>
+  I have such a messy life that couse me a lot of problems at school, home and <abbr title="middle east entepenures of tomorrow">MEET</abbr>. You are probably asking yourself right now, what is <abbr title="middle east entepenures of tomorrow">MEET</abbr>? well, <abbr title="middle east entepenures of tomorrow">MEET</abbr> is a program who gather the leaders of the future who came from two different backgrounds, communities that have a lot going on between them, have you ever heard about the israeli-palestinian conflict? <br>
+  <abbr title="middle east entepenures of tomorrow">MEET</abbr> is trying to reconnect these two sides by teaching us tools that help us like:<br>
+  1) See the full picture, and understand the other perspective.<br>
+  2) Recognize and treat a problem we face in less time.<br>
+  3) Understand others, by starting with ourselves.<br>
+  4) Push ourselves out of our confort zone to evolve, in order to meet our truly self, and be comfortable about it. <br>
+  5) Reach to more people, and convince them with our ideas.<br>
+  6) Be brave enough to be the first who stand and make a rael change.<br>
+  and a lot more, all these things that i have mentioned above, we learnd them in the last two years out of three years in three different classes: entrepreneurship, computer scince and DU (Deeper Understanding). you can go and raed a lot more about <a href="http://meet.mit.edu/">MEET</a> program in their official website.<br>
+  I am pretty sure that everyone faced these typixal minds at least once their lifetime,  who think people who have a high grades should become a Doctor or whatever, but i have been dreaming to become an astroonaut since i can't remember, the first palestinian astronaut who went outside the earth searching for new planets to live on, new creatures to communicate with, like we see in movies.<br>
+  I think God is something we created long time ago, at the time we were weak, we needed someone to blame for that weakness, for that wrong decisions we made back then, plus it is easer to explain things this way by putting it under some superpower who created it. humans aren't weak anymore, and if we keep going this way, we will become a lot stronger, more than we anyone imagined, and the image of God will disappear with it, and it is just the beginning of the mankind greatness.<br>
+  Hope you find this website helpfull.<br> 
+    <br>
+    </p>
+    </font>
+</div>
+</div>
+
+
+<!-- Third Parallax Image with Portfolio Text -->
+<div class="bgimg-3 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+     <span class="w3-xxlarge w3-text-white w3-wide">SIGN UP</span>
+  </div>
+</div>
+
+
+<!-- Container (Contact Section) -->
+<div class="w3-content w3-container w3-padding-64" id="signup">
+  <h1 class="w3-center"><em> .. </em></h1>
+  <br>
+  <br>
+  <form action="{{ url_for('signup') }}" method='post' style="border:1px solid #ccc">
+  <div class="container">
+    <h6>please fill in this form in order to create your account</h6>
+    <hr>
+
+    <label><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+
+    <label><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <label><b>Repeat Password</b></label>
+    <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+    
+    <label>
+      <input type="checkbox" checked="checked" style="margin-bottom:14px"> Remember me
+    </label>
+    
+    <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+    <div class="clearfix">
+      <button type="button" class="cancelbtn">Cancel</button>
+      <button type="submit" class="signupbtn">Sign Up</button>
+    </div>
+  </div>
+  </form>
+</div>
+
+<!-- Second Parallax Image with Portfolio Text -->
+<div class="bgimg-2 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+     <span class="w3-xxlarge w3-text-white w3-wide">SIGN IN</span>
+  </div>
+</div>
+<br><br><br>
+ <h1 class="w3-center"><em> .. </em></h1>
+ <div class="w3-content w3-container w3-padding-64" id="signin">
+  <form class="modal-content animate" action="{{url_for('signin')}}" method=post>
+    <div class="imgcontainer">
+      <img src="https://cdn4.iconfinder.com/data/icons/people-of-service/512/People_Services_astronaut_woman-512.png" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+    <center>
+      <label><b>Gmail</b></label>
+      <input type="text" placeholder="Enter Gmail" name="Gmail" required>
+
+      <label><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+      </center>
+        
+      <label>
+        <input type="checkbox" checked="checked"> Remember me
+      </label>
+    </div>
+
+    <div class="clearfix">
+      <button type="button" class="cancelbtn">Cancel</button>
+      <button type="submit" class="signupbtn">Sign In</button>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+  </div>
+<br><br><br>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  </div>
+</footer>
+
+</body>
+</html>

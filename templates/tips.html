@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<title>TIPS</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/tips.css')}}">
+
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="{{url_for('calendar')}}" class="w3-bar-item w3-button">CALENDAR</a>
+    <a href="{{url_for('tips')}}" class="w3-bar-item w3-button w3-hide-small"></i> TIPS</a>
+    <a href="{{url_for('thingstodo')}}" class="w3-bar-item w3-button w3-hide-small"></i> THINGS TO DO</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+      <i class="fa fa-search"></i>
+    </a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="calendar.html" class="w3-bar-item w3-button" onclick="toggleFunction()">CALENDAR</a>
+    <a href="thingstodo.html" class="w3-bar-item w3-button" onclick="toggleFunction()">THINGS TO DO</a>
+    <a href="#" class="w3-bar-item w3-button">SEARCH</a>
+  </div>
+</div>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">SOME <span class="w3-hide-small">TIPS</span></span>
+  </div>
+</div>
+
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center"><em>..</em></h3>
+
+  <br><br>
+  <pre><font face="verdana" size="5">
+   <b>1)  What do you have to do  ?  </b></font> 
+   <font face="verdana" size="4">
+                         The first stage of improving your time management is to list absolutely everything that you have to do. This may
+                         sound obvious, but speaking from experience, most students tend to leave important tasks until the last minute,
+                         which can impact on the quality of their work and their overall grade.
+                         Include any university deadlines as well as any shifts you work on the list, and make a note of how much time each
+                         priority will take out of your schedule. 
+  </font>
+  </pre>
+  <center>
+  <img src="https://img.buzzfeed.com/buzzfeed-static/static/2014-01/enhanced/webdr06/8/14/anigif_enhanced-buzz-25063-1389209633-8.gif" width="350" height="200">
+  </center>
+  <br><br>
+
+  <pre><font face="verdana" size="5">
+   <b>2)  Create a life schedule   </b></font> 
+   <font face="verdana" size="4">
+                         Whether it’s a pin-up planner, a timetable or a calendar on your phone, find an organizing tool that works well for
+                         you and add your list of priorities to it. There are many time management apps that can help with this. Also, think
+                         about when you are most alert, so that you can plan your study periods around these times.
+                         Find time for socializing, but also make sure that you get enough sleep. Most people need between 7 to 8 hours sleep
+                         every night to remain focused and alert during study periods.
+  </pre>
+  <center>
+  <img src="http://www.reactiongifs.com/r/ahwg.gif" width="350" height="200">
+  </center>
+  <br><br>
+
+  <pre><font face="verdana" size="5">
+   <b>3)  Be flexible but realistic   </b></font> 
+   <font face="verdana" size="4">
+                         Typically, allow around 8-10 hours a day for working, studying, socializing and anything else practical you need to do.
+                         As a full-time student, you’re expected to dedicate 35 hours a week to university studies, including the time you spend
+                         in seminars and lectures. If you only spend 15 hours a week attending tutor-led learning, you should use the extra 20 hours
+                         for independent study.
+                         It’s also important to remember that things often take longer than expected. So, allow a little extra time in case you
+                         spend longer on a task than you thought you would. 
+  </font>
+  </pre>
+  <center>
+  <img src="https://m.popkey.co/48f749/OwMg9.gif" width="350" height="200">
+  </center>
+  <br><br>
+
+  <pre><font face="verdana" size="5">
+   <b>4)  Allow time for planning to avoid repetition   </b></font> 
+   <font face="verdana" size="4">
+                         Taking the time to research, plan and think about your work is crucial for good time management. Allow yourself the
+                         time to process new information and plan how you are going to use it, as this can help you to avoid having to re-read and
+                         repeat any research.
+                         One way of effectively planning before researching is to make a list of everything you want to find out, so that you can
+                         make notes below each subheading as you go.
+  </font>
+  </pre>
+  <center>
+  <img src="https://i.imgur.com/klLXAw0.gif" width="350" height="200">
+  </center>
+  <br><br>
+
+  <pre><font face="verdana" size="5">
+   <b>5)  Avoid procrastination and distraction   </b></font> 
+   <font face="verdana" size="4">
+                         One way to avoid procrastination is to think about the different places you have been when studying – where were you
+                         the most focused? Where were you most distracted? Is there anything you can do to make studying actually somewhat
+                         enjoyable?
+                         Remember, what works for one person might not necessarily work for you.  For some, studying with friends can limit their
+                         productivity. But for others, studying in groups can help to increase motivation and avoid procrastination. 
+  </font>
+  </pre>
+  <center>
+  <img src="https://media.giphy.com/media/39CqBhycuM5kQ/giphy.gif" width="350" height="200">
+  </center>
+  <br><br>
+
+  <pre><font face="verdana" size="5">
+   <b>6)  Exercise to clear your head in between study sessions   </b></font> 
+   <font face="verdana" size="4">
+                         Believe it or not, exercise works in the same way sleep does. It can focus your state of mind, helping you to clear your
+                         head and boost your brain power in between study sessions. If you’re new to exercise, aim to fit in a 10-minute run
+                         here and there, steadily increasing the amount you do as you go on. 
+  </font>
+  </pre>
+  <center>
+  <img src="https://media.giphy.com/media/13mLwGra9bNEKQ/giphy.gif" width="350" height="200">
+  </center>
+  <br><br>
+
+  <pre><font face="verdana" size="5">
+   <b>7)  Has your organization been effective  ?   </b></font> 
+   <font face="verdana" size="4">
+                         Constantly reviewing and reassessing your schedule can help you to recognize whether you need to make any changes in
+                         order to help you complete any university tasks and also have time to relax and spend time with friends and family.
+                         Rachel Campbell is a creative content writer for Pure Student Living, a provider of high quality student accommodation
+                         situated in a number of locations throughout London.
+                         Want more content like this? Register for free site membership to get regular updates and your own personal content feed. 
+  </font>
+  </pre>
+  <center>
+  <img src="https://media1.tenor.com/images/50f611cd9169d444634e2af255f759f4/tenor.gif?itemid=5351962" width="350" height="200">
+  </center>
+  <br><br>
+
+  <div class="w3-row">
+    <div class="w3-col m6 w3-center w3-padding-large">
+    </div>
+
+    <!-- Hide this text on small devices -->
+    <div class="w3-col m6 w3-hide-small w3-padding-large">
+      <p>.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+<a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+</footer>
+ 
+</body>
+</html>
